@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: ClanOT-Medium, Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #eee;
+}
+
+.card-custom-login {
+    padding: 50px;
+}
+
+.card-custom {
+    border-color: #ced4da;
+}
+
+.card-header-login {
+background-color: white;
+}
+
+.card-title-login {
+    color: #263d57
+}
+
+.login-sub-text {
+    color: rgb(148, 160, 178);
+  }
