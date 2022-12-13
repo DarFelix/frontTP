@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: ClanOT-Medium, Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #eee;
+}
+
+.card-custom-login {
+    padding: 50px;
+}
+
+.card-custom {
+    border-color: #ced4da;
+}
+
+.card-header-login {
+background-color: white;
+}
+
+.card-title-login {
+    color: #263d57
+}
+
+.login-sub-text {
+    color: rgb(148, 160, 178);
+  }
+
+.table-modal{
+    display:inline-table; 
+    overflow: auto;
+    height: 500px;
+    width: auto;
+    border-collapse: collapse;
+  }
+
+  .head-table {
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+
+  .tr-ancho{
+    height: 40px;
+  }
+
+
+  .card-title-table {
+    color: rgb(197, 18, 144);
+    text-align: center;
+  }
+
+  .alert-center {
+    display: flex;
+    align-items: center;
+    height: 500px;
+  }
+
+  .word-item{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .align-btn{
+    text-align: center;
+  }
+
+  .align-tx {
+    text-align: center;
+  }
+
+  .heigh-container{
+    height: 930px;
+  }
