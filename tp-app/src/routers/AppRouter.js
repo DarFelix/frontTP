@@ -9,8 +9,8 @@ export const AppRouter = () => {
     let dashboard = <InitDashboardRoutes/>;
 
     let now = new Date();
-    let timeEvent = new Date(now.getFullYear(), now.getMonth(), 13, 1, 18, 0, 0);
-    let timeCloseInscriptions = new Date(now.getFullYear(), now.getMonth(), 13, 1, 17, 0, 0);
+    let timeEvent = new Date(now.getFullYear(), now.getMonth(), 15, 0, 0, 0, 0);
+    let timeCloseInscriptions = new Date(now.getFullYear(), now.getMonth(), 12, 0, 0, 0, 0);
 
     let timeBeforeCount = timeEvent-now;
     let closeIncriptionsCount = timeCloseInscriptions - now;
